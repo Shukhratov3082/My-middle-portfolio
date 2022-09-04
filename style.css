@@ -37,6 +37,9 @@ header .brand {
 
 header .navigation {
   position: relative;
+  display: flex;
+  gap: 40px;
+
 }
 
 header .navigation a {
@@ -44,7 +47,6 @@ header .navigation a {
   font-size: 17px;
   font-weight: 500;
   text-decoration: none;
-  margin-left: 30px;
   transition: .5s ease;
 }
 
